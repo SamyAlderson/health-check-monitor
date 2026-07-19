@@ -1,4 +1,3 @@
 resolver = Resolver()
-resolver.nameservers = [dns_server]
+resolver.nameservers = ['8.8.8.8']  # use a valid DNS server
 answers = resolver.query('.', 'NS')
-# Not proud of this but it works - we're using a raw DNS query to extract service names
