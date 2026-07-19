@@ -4,7 +4,5 @@ setup(
     name='my_project',
     version='1.0',
     packages=['src'],
-    install_requires=['requests'],
-    author='Samy Alderson',
-    author_email='samyalder@domain.com'
+    install_requires=['ruff']
 )
